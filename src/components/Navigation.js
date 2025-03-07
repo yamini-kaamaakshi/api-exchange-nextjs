@@ -10,7 +10,7 @@ const Navbar = () => {
                     <div className="flex items-center gap-12">
                         {/* Logo */}
                         <Link href="/" passHref legacyBehavior>
-                            <a className="flex items-center">
+                            <a className="flex items-center gap-x-3">
                                 <Image
                                     src="/favicon.io/images/apix_blue.png"
                                     alt="API Exchange Logo"
