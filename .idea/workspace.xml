@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6c3cb93-7578-4cd1-b19a-8223352c2c3c" name="Changes" comment="Added the Hero Page.">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+    <list default="true" id="d6c3cb93-7578-4cd1-b19a-8223352c2c3c" name="Changes" comment="Added the integration Page.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Integrations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Integrations.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741418942884</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added the integration Page.">
+      <option name="closed" value="true" />
+      <created>1741424942646</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1741424942646</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +166,7 @@
     <MESSAGE value="Added the Footer file." />
     <MESSAGE value="Updated the code." />
     <MESSAGE value="Added the Hero Page." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the Hero Page." />
+    <MESSAGE value="Added the integration Page." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the integration Page." />
   </component>
 </project>
