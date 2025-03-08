@@ -1,11 +1,6 @@
-import Head from "next/head";
-
 export default function ChromeExtension() {
     return (
         <>
-            <Head>
-                <title>Google Chrome Extension</title>
-            </Head>
             {/* Chrome Extension Section */}
             <div id="chrome-extension" className="py-36 bg-gray-50">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
