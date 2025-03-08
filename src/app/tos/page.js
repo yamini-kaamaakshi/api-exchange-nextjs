@@ -1,25 +1,11 @@
-import Head from 'next/head';
+export const metadata = {
+    title: "API Exchange - Terms of Service",
+    description: "API Exchange Terms of Service. Learn about our terms and conditions.",
+};
 
 export default function TermsOfService() {
     return (
         <div className="bg-gray-50 text-gray-800">
-            <Head>
-                <title>API Exchange - Terms of Service</title>
-                <meta name="description"
-                      content="API Exchange helps you collect professional profile data and seamlessly integrate with your favorite CRM systems."/>
-                <link rel="icon" href="https://cdn.apiexchange.site/apix_black.png"/>
-                <meta property="og:title" content="API Exchange - Connect Your Tools"/>
-                <meta property="og:description"
-                      content="API Exchange helps you collect professional profile data and seamlessly integrate with your favorite CRM systems."/>
-                <meta property="og:image" content="https://cdn.apiexchange.site/apix_black.png"/>
-                <meta property="og:url" content="https://apiexchange.site"/>
-                <meta property="og:type" content="website"/>
-                <meta name="twitter:card" content="summary"/>
-                <meta name="twitter:title" content="API Exchange"/>
-                <meta name="twitter:description" content="Connecting your recruitment tools for a seamless workflow."/>
-                <meta name="twitter:image" content="https://cdn.apiexchange.site/apix_black.png"/>
-            </Head>
-
             <Nav/>
 
             {/*-- Page Header*/}
