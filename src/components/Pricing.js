@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { FaCheck } from "react-icons/fa";
 
-const Pricing = () => {
+export default  function Pricing () {
     return (
         <div id="pricing" className="py-36 bg-gray-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -114,5 +114,3 @@ const Pricing = () => {
         </div>
     );
 };
-
-export default Pricing;

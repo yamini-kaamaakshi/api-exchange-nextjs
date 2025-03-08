@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-const Testimonials=()=>{
+export default  function  Testimonials(){
     return(
         <div className="bg-white py-36">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -83,5 +83,3 @@ const Testimonials=()=>{
         </div>
     )
 }
-
-export default Testimonials;

@@ -1,4 +1,4 @@
-const Features = () => {
+export default function Features(){
     return (
         <div id="features" className="py-36 bg-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -64,4 +64,3 @@ const Features = () => {
     );
 };
 
-export default Features;

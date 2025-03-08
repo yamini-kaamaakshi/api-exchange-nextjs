@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-const Hero = () => {
+export default  function Hero(){
     return (
         <div className="bg-gradient-to-r from-blue-500 to-blue-700 py-36">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -172,5 +172,3 @@ const Hero = () => {
     )
 
 }
-
-export default Hero;

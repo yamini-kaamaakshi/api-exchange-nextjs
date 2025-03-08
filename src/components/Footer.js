@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
-const Footer = () => {
+export default function Footer(){
     return (
         <footer className="bg-gray-800 text-white py-20">
             <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
@@ -40,5 +40,3 @@ const Footer = () => {
         </footer>
     );
 };
-
-export default Footer;
