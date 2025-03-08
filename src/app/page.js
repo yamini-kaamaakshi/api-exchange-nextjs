@@ -1,13 +1,13 @@
 import Features from "@/components/Features";
 import ChromeExtension from "@/components/ChromeExtension";
-import Hero from "@/components/Hero";
+import Navbar from "@/components/Navigation";
 
 export default function Home() {
     return (
         <>
+            <Navbar/>
             <Features/>
             <ChromeExtension />
-            {/*<Hero/>*/}
         </>
 
     );
