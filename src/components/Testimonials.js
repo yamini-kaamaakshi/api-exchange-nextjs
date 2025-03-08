@@ -15,7 +15,7 @@ const Testimonials=()=>{
                         <div className="flex items-center">
                             <div className="flex-shrink-0">
                                 <Image
-                                    src="/images/Testimonials-Profile-1.jpg"
+                                    src="https://i.pravatar.cc/100?img=32"
                                     className="h-12 w-12 rounded-full"
                                     alt="Sarah Johnson"
                                     width={32}
@@ -37,7 +37,7 @@ const Testimonials=()=>{
                         <div className="flex items-center">
                             <div className="flex-shrink-0">
                                 <Image
-                                    src="/images/Testimonials.Profile-2.jpg"
+                                    src="https://i.pravatar.cc/100?img=68"
                                     className="h-12 w-12 rounded-full"
                                     alt="Michael Chen"
                                     width={32}
@@ -59,7 +59,7 @@ const Testimonials=()=>{
                         <div className="flex items-center">
                             <div className="flex-shrink-0">
                                 <Image
-                                    src="/images/Testimonials-Profile-3.jpg"
+                                    src="https://i.pravatar.cc/100?img=44"
                                     className="h-12 w-12 rounded-full"
                                     alt="Jessica Williams"
                                     width={32}
