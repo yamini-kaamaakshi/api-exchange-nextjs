@@ -1,7 +1,6 @@
 export default function ChromeExtension() {
     return (
-        <>
-            {/* Chrome Extension Section */}
+            // Chrome Extension
             <div id="chrome-extension" className="py-36 bg-gray-50">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="lg:flex lg:items-center lg:justify-between">
@@ -99,6 +98,5 @@ export default function ChromeExtension() {
                     </div>
                 </div>
             </div>
-        </>
     );
 }

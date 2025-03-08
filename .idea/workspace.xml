@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6c3cb93-7578-4cd1-b19a-8223352c2c3c" name="Changes" comment="Added the integration Page.">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d6c3cb93-7578-4cd1-b19a-8223352c2c3c" name="Changes" comment="Updated the code.">
       <change beforePath="$PROJECT_DIR$/src/components/ChromeExtension.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChromeExtension.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -203,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741428902229</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Updated the code.">
+      <option name="closed" value="true" />
+      <created>1741431443179</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1741431443179</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,8 +220,8 @@
     <MESSAGE value="Added the file." />
     <MESSAGE value="Added the Footer file." />
     <MESSAGE value="Added the Hero Page." />
-    <MESSAGE value="Updated the code." />
     <MESSAGE value="Added the integration Page." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the integration Page." />
+    <MESSAGE value="Updated the code." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the code." />
   </component>
 </project>
