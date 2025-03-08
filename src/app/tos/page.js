@@ -6,7 +6,48 @@ export const metadata = {
 export default function TermsOfService() {
     return (
         <div className="bg-gray-50 text-gray-800">
-            <Nav/>
+
+            {/*Navbar*/}
+            <nav className="bg-white shadow-md">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div className="flex justify-between h-16">
+                        <div className="flex items-center">
+                            <div className="flex-shrink-0 flex items-center">
+              <span className="text-blue-600 font-bold text-xl flex">
+                <img src="https://cdn.apiexchange.site/apix_blue.png" alt="Logo" className="w-6 h-6 mr-2"/>
+                API Exchange
+              </span>
+                            </div>
+                            <div className="hidden md:ml-6 md:flex md:space-x-8">
+                                <a href="/#features"
+                                   className="border-transparent text-gray-500 hover:border-blue-500 hover:text-blue-600 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">Features</a>
+                                <a href="/#integrations"
+                                   className="border-transparent text-gray-500 hover:border-blue-500 hover:text-blue-600 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">Integrations</a>
+                                <a href="/#pricing"
+                                   className="border-transparent text-gray-500 hover:border-blue-500 hover:text-blue-600 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">Pricing</a>
+                            </div>
+                        </div>
+                        <div className="flex items-center">
+                            <a href="https://forms.gle/FH4UR1gS8yhiDVwZ9" target="_blank"
+                               className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                                Get Started
+                            </a>
+                        </div>
+                        <div className="-mr-2 flex items-center md:hidden">
+                            <button type="button"
+                                    className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
+                                    aria-expanded="false">
+                                <span className="sr-only">Open main menu</span>
+                                <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                     viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
+                                          d="M4 6h16M4 12h16M4 18h16"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
 
             {/*-- Page Header*/}
             <div className="bg-white shadow">
@@ -347,42 +388,5 @@ export default function TermsOfService() {
                 </div>
             </main>
         </div>
-    );
-}
-
-function Nav() {
-    return (
-        <nav className="bg-white shadow-md">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex justify-between h-16">
-                    <div className="flex items-center">
-                        <div className="flex-shrink-0 flex items-center">
-              <span className="text-blue-600 font-bold text-xl flex">
-                <img src="https://cdn.apiexchange.site/apix_blue.png" alt="Logo" className="w-6 h-6 mr-2" />
-                API Exchange
-              </span>
-                        </div>
-                        <div className="hidden md:ml-6 md:flex md:space-x-8">
-                            <a href="/#features" className="border-transparent text-gray-500 hover:border-blue-500 hover:text-blue-600 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">Features</a>
-                            <a href="/#integrations" className="border-transparent text-gray-500 hover:border-blue-500 hover:text-blue-600 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">Integrations</a>
-                            <a href="/#pricing" className="border-transparent text-gray-500 hover:border-blue-500 hover:text-blue-600 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">Pricing</a>
-                        </div>
-                    </div>
-                    <div className="flex items-center">
-                        <a href="https://forms.gle/FH4UR1gS8yhiDVwZ9" target="_blank" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                            Get Started
-                        </a>
-                    </div>
-                    <div className="-mr-2 flex items-center md:hidden">
-                        <button type="button" className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500" aria-expanded="false">
-                            <span className="sr-only">Open main menu</span>
-                            <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
-                            </svg>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </nav>
     );
 }
