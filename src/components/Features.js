@@ -64,11 +64,4 @@ const Features = () => {
     );
 };
 
-// Ensure full Server-Side Rendering
-export async function getServerSideProps() {
-    return {
-        props: {}, // Ensures SSR is enforced
-    };
-}
-
 export default Features;
