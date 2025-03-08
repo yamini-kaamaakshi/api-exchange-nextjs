@@ -3,25 +3,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-const integrations = [
-    {
-        name: 'Bullhorn',
-        logo: 'https://vectorlogoseek.com/wp-content/uploads/2018/11/bullhorn-inc-vector-logo.png',
-    },
-    {
-        name: 'JobAdder',
-        logo: 'https://jobadder.com/wp-content/uploads/2021/11/Blue.svg',
-    },
-    {
-        name: 'Recruitly',
-        logo: 'https://recruitly.io/wp-content/uploads/2020/10/logo-2.png',
-    },
-    {
-        name: 'HubSpot',
-        logo: 'https://victorycto.com/wp-content/uploads/2023/04/2560px-HubSpot_Logo.png',
-    },
-];
-
 export default function Integrations() {
     return (
         <section id="integrations" className="py-36 bg-white">
@@ -60,7 +41,7 @@ export default function Integrations() {
                         <p className="mt-3 text-sm font-medium text-gray-700">JobAdder</p>
                     </div>
 
-                    {/*Recruitly*/}
+                    {/* Recruitly */}
                     <div
                         className="flex flex-col justify-center items-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-all duration-200 border border-gray-100 h-full">
                         <div className="flex items-center justify-center h-full">
