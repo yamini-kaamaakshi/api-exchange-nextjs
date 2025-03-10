@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6c3cb93-7578-4cd1-b19a-8223352c2c3c" name="Changes" comment="Updated the code.">
+    <list default="true" id="d6c3cb93-7578-4cd1-b19a-8223352c2c3c" name="Changes" comment="Updated the navbar.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Pricing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pricing.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +75,7 @@
       <workItem from="1741359322739" duration="3864000" />
       <workItem from="1741404760043" duration="2248000" />
       <workItem from="1741442802105" duration="120000" />
-      <workItem from="1741578557719" duration="543000" />
+      <workItem from="1741578557719" duration="1844000" />
     </task>
     <task id="LOCAL-00001" summary="Added the Navbar.">
       <option name="closed" value="true" />
@@ -221,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741431521995</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Updated the navbar.">
+      <option name="closed" value="true" />
+      <created>1741579201254</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1741579201254</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +242,7 @@
     <MESSAGE value="Added the Hero Page." />
     <MESSAGE value="Added the integration Page." />
     <MESSAGE value="Updated the code." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated the code." />
+    <MESSAGE value="Updated the navbar." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the navbar." />
   </component>
 </project>

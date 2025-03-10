@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { FaCheck } from "react-icons/fa";
 
 export default  function Pricing () {
     return (
@@ -32,7 +31,12 @@ export default  function Pricing () {
                             <ul className="mt-8 space-y-4">
                                 {["Chrome Extension", "1 CRM Integration", "1000 Profiles/month", "Email Support"].map((feature, index) => (
                                     <li key={index} className="flex items-center">
-                                        <FaCheck className="text-green-500 mr-2" />
+                                        <svg className="h-4 w-4 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg"
+                                             viewBox="0 0 20 20" fill="currentColor">
+                                            <path fillRule="evenodd"
+                                                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                                  clipRule="evenodd"/>
+                                        </svg>
                                         <span>{feature}</span>
                                     </li>
                                 ))}
@@ -40,7 +44,7 @@ export default  function Pricing () {
                         </div>
                         <div className="px-6 py-4 bg-gray-50">
                             <Link href="https://forms.gle/FH4UR1gS8yhiDVwZ9" target="_blank">
-                                <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                            <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                                     Get Started
                                 </button>
                             </Link>
@@ -59,7 +63,12 @@ export default  function Pricing () {
                             <ul className="mt-8 space-y-4">
                                 {["Chrome Extension", "2 CRM Integrations", "10000 Profiles/month", "Priority Support", "Analytics Dashboard"].map((feature, index) => (
                                     <li key={index} className="flex items-center">
-                                        <FaCheck className="text-green-500 mr-2" />
+                                        <svg className="h-4 w-4 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg"
+                                             viewBox="0 0 20 20" fill="currentColor">
+                                            <path fillRule="evenodd"
+                                                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                                  clipRule="evenodd"/>
+                                        </svg>
                                         <span>{feature}</span>
                                     </li>
                                 ))}
@@ -67,7 +76,7 @@ export default  function Pricing () {
                         </div>
                         <div className="px-6 py-4 bg-gray-50">
                             <Link href="https://forms.gle/FH4UR1gS8yhiDVwZ9" target="_blank">
-                                <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                            <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                                     Get Started
                                 </button>
                             </Link>
@@ -93,7 +102,12 @@ export default  function Pricing () {
                                     "API Access",
                                 ].map((feature, index) => (
                                     <li key={index} className="flex items-center">
-                                        <FaCheck className="text-green-500 mr-2" />
+                                        <svg className="h-4 w-4 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg"
+                                             viewBox="0 0 20 20" fill="currentColor">
+                                            <path fillRule="evenodd"
+                                                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                                  clipRule="evenodd"/>
+                                        </svg>
                                         <span>{feature}</span>
                                     </li>
                                 ))}
@@ -101,7 +115,8 @@ export default  function Pricing () {
                         </div>
                         <div className="px-6 py-4 bg-gray-50">
                             <Link href="https://forms.gle/FH4UR1gS8yhiDVwZ9" target="_blank">
-                                <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                                <button
+                                    className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                                     Contact Sales
                                 </button>
                             </Link>
