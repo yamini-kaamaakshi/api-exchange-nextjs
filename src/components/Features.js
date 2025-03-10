@@ -1,7 +1,4 @@
-import React from "react";
-
-// Define features data as a fallback for SSR
-const defaultFeatures = [
+const featuresData = [
     { icon: "fas fa-puzzle-piece", title: "Chrome Extension", description: "Extract valuable profile data from professional platforms with our easy-to-use Chrome extension." },
     { icon: "fas fa-exchange-alt", title: "CRM Integration", description: "Connect directly with Bullhorn, JobAdder, Recruitly, and other popular CRM systems." },
     { icon: "fas fa-robot", title: "Automation", description: "Automate your workflow with custom triggers and actions based on extracted data." },
@@ -13,12 +10,12 @@ const defaultFeatures = [
 export async function getServerSideProps() {
     return {
         props: {
-            features: defaultFeatures
+            features: featuresData
         }
     };
 }
 
-export default function Features({ features = defaultFeatures }) {
+export default function Features({ features = featuresData }) {
     return (
         <div id="features" className="py-36 bg-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

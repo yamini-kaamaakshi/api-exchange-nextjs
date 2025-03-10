@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 // Define plans data here as a fallback
-const defaultPlans = [
+const pricingData = [
     {
         name: "Starter",
         description: "Perfect for individual recruiters and small teams.",
@@ -39,12 +39,12 @@ const defaultPlans = [
 export async function getServerSideProps() {
     return {
         props: {
-            plans: defaultPlans
+            plans: pricingData
         }
     };
 }
 
-export default function Pricing({ plans = defaultPlans }) {
+export default function Pricing({ pricing = pricingData }) {
     return (
         <div id="pricing" className="py-36 bg-gray-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -61,7 +61,7 @@ export default function Pricing({ plans = defaultPlans }) {
                 </div>
 
                 <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-3">
-                    {plans.map((plan, planIndex) => (
+                    {pricing.map((plan, planIndex) => (
                         <div
                             key={planIndex}
                             className={`bg-white rounded-lg shadow-lg overflow-hidden ${

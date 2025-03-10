@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 // Define default integrations data
-const defaultIntegrations = [
+const integrationsData = [
     { name: "Bullhorn", logo: "https://vectorlogoseek.com/wp-content/uploads/2018/11/bullhorn-inc-vector-logo.png" },
     { name: "JobAdder", logo: "https://jobadder.com/wp-content/uploads/2021/11/Blue.svg" },
     { name: "Recruitly", logo: "https://recruitly.io/wp-content/uploads/2020/10/logo-2.png" },
@@ -12,12 +12,12 @@ const defaultIntegrations = [
 export async function getServerSideProps() {
     return {
         props: {
-            integrations: defaultIntegrations
+            integrations: integrationsData
         }
     };
 }
 
-export default function Integrations({ integrations = defaultIntegrations }) {
+export default function Integrations({ integrations = integrationsData }) {
     return (
         <section id="integrations" className="py-36 bg-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 // Define testimonials data
-const defaultTestimonials = [
+const testimonialsData = [
     {
         id: 1,
         name: "Sarah Johnson",
@@ -27,28 +27,14 @@ const defaultTestimonials = [
 
 // For Pages Router: This function runs on every request
 export async function getServerSideProps() {
-    try {
-        // For demonstration, we'll use the hardcoded data
-        const testimonials = defaultTestimonials;
-
-        return {
+    return {
             props: {
-                testimonials,
-                error: null
-            }
-        };
-    } catch (error) {
-        console.error("Failed to fetch testimonials:", error);
-        return {
-            props: {
-                testimonials: defaultTestimonials,
-                error: "Failed to load the latest testimonials. Showing cached data."
+                testimonialsData
             }
         };
     }
-}
 
-export default function Testimonials({ testimonials = defaultTestimonials, error = null }) {
+export default function Testimonials({ testimonials = testimonialsData, error = null }) {
     return (
         <div className="bg-white py-36">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
